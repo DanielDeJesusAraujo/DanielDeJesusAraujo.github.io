@@ -1,16 +1,10 @@
 body {
-  background-image: url(imagens/background.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-color: rgb(18, 1, 21);
   color: rgb(255, 255, 255);
 }
 
 .meunome {
   text-align: center;
-  position:fixed;
-  margin-left: 40%;
-  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap');
