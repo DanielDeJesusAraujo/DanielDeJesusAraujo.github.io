@@ -1,63 +1,65 @@
 body {
-  background-color: rgb(18, 1, 21);
-  color: rgb(255, 255, 255);
+  font-family: 'Roboto Flex', sans-serif;
+  text-align: center;
+  background-color: rgb(9, 184, 228);
+  color: rgb(0, 0, 0);
 }
-
-.meunome {
+img{
+  max-width: 100%;
+}
+h1{
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-
-h1,
-h2 {
-  font-family: 'Radio Canada', sans-serif;
+header{
+  text-align: left;
+  padding-left: 6%;
+  display: inline-block;
+}
+#description{
+  margin-top: -19px;
+  position:absolute;
+  text-align: left;
+  padding-left: 9px;
+}
+#foto{
+  border:1px silid green;
+  max-width: 20%;
+  border-radius: 8%;
+  
+}
+img{
+  box-shadow:1px 1px;
+  border-radius: 3%;
 }
 
-.localnasc {
-  font-style: italic;
+header #foto,#description{
+  display: inline-block;
+}
+p.info{
+  text-align: left;
+  padding: auto;
+  margin-top: 50px;
+  margin-left: 39px;
 }
 
-p,
-li {
-  font-family: 'Roboto Flex', sans-serif;
+div.habilidades {
+  margin: auto;
+  text-align: left;
+  margin: auto;
+  display: inline-block;
 }
-
-.habc,
-.habex {
-  font-size: 15pt;
+nav{
+  margin: auto;
+  text-align: left;
+  margin: auto;
+  display: inline-block;
 }
-
-div div#foto,
-div.description {
-  padding-left: 20px;
+ul{
+  list-style-position: inside;
+  list-style-type: square;
+}
+nav{
   display: inline-block;
 }
 
-div.description {
-  margin: 60px 0px 0px;
-  vertical-align: top;
-}
-
-p.info {
-  padding-left: 20px;
-}
-
-
-#myfoto {
-  border-radius: 8%;
-  width: 200px;
-  padding: 7px;
-  background-color: black;
-}
-
-.habilidades,
-.links {
-  padding-left: 20px;
-}
-
-ul li:nth-child(odd) {
-  background-color: aqua;
-  max-width: 20%;
-}
